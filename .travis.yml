@@ -2,7 +2,7 @@ install:
   - sudo apt-get install texlive-latex-base texlive-lang-cyrillic texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended biblatex
   - sudo apt-get install chktex
   - sudo apt-get install zip
-  - sudo wget http://heanet.dl.sourceforge.net/project/disser/disser/1.3.2/disser-1.3.2.tds.zip /tmp
+  - sudo wget -P /tmp http://heanet.dl.sourceforge.net/project/disser/disser/1.3.2/disser-1.3.2.tds.zip
   - sudo unzip /tmp/disser-1.3.2.tds.zip -d /usr/share/texmf
   - sudo mktexlsr
 
