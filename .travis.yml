@@ -1,6 +1,5 @@
 install:
-  - sudo ls -l
-  - sudo ./install.sh
+  - sudo bash install.sh
 
 script:
   - make
