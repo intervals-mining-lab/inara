@@ -1,0 +1,20 @@
+\documentclass[candidate,subf,href]{disser}
+
+\usepackage[
+  a4paper, mag=1000, includefoot,
+    left=3cm, right=1cm, top=2cm, bottom=2cm, headsep=1cm, footskip=1cm
+    ]{geometry}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[russian]{babel}
+\ifpdf\usepackage{epstopdf}\fi
+\graphicspath{{fig/}}
+
+\begin{document}
+  \title{Проект "Инара": исследование структуры символьных последовательносей}\maketitle
+  \tableofcontents
+  \input{content/common}
+  \bibliographystyle{gost705}
+  \bibliography{main}
+\end{document}
