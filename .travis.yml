@@ -1,4 +1,5 @@
 install:
+  - sudo ls -l
   - sudo ./install.sh
 
 script:
