@@ -1,4 +1,10 @@
-apt-get install -y texlive-binaries texlive-latex-base texlive-lang-cyrillic texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended biblatex
+apt-get install -y texlive-binaries 
+apt-get install -y texlive-latex-base 
+apt-get install -y texlive-lang-cyrillic 
+apt-get install -y texlive-latex-recommended 
+apt-get install -y texlive-latex-extra 
+apt-get install -y texlive-fonts-recommended 
+apt-get install -y biblatex
 apt-get install -y chktex
 apt-get install -y zip unzip
 wget -P /tmp http://heanet.dl.sourceforge.net/project/disser/disser/1.3.2/disser-1.3.2.tds.zip
