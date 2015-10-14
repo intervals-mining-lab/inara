@@ -1,6 +1,6 @@
 all:
-	bibtexu main
 	pdflatex main.tex
+	bibtexu main
 	pdflatex main.tex
 
 biblio:
